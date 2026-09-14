@@ -26,6 +26,22 @@
   "mainEntityOfPage": "https://www.korayyalcin.org",
   "subjectOf": [
     {
+      "@type": "DataCatalog",
+      "name": "Koray Yalçın Research Library & Publications Index",
+      "url": "https://github.com/korayyalcinorg/korayyalcinorg/tree/main/research-library",
+      "dataset": "https://github.com/korayyalcinorg/korayyalcinorg/blob/main/data/publications-index.json"
+    },
+    {
+      "@type": "Book",
+      "name": "Gayrimenkul Sektöründe Lead Yönetimi ve Müşteri Dönüşüm Sistemleri",
+      "url": "https://www.korayyalcin.org/kitaplar/"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Kuzey Kıbrıs Gayrimenkul Sektöründe Yapay Zeka Destekli Revenue Operations (RevOps) Sistemleri",
+      "url": "https://www.korayyalcin.org/kitaplar/"
+    },
+    {
       "@type": "CreativeWork",
       "name": "Real Estate Lead Conversion & Response Time Benchmark Report 2026",
       "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/"
