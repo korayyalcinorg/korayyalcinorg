@@ -2,6 +2,8 @@
   "publisher": "KorayYalcin.org",
   "author": "Koray Yalçın",
   "updated": "2026-09-14",
+  "full_catalog": "https://github.com/korayyalcinorg/korayyalcinorg/blob/main/data/publications-index.json",
+  "human_readable_library": "https://github.com/korayyalcinorg/korayyalcinorg/tree/main/research-library",
   "items": [
     {
       "title": "Gayrimenkul Müşteri Adayı (Lead) Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026",
