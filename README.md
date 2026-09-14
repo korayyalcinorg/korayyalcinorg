@@ -1,155 +1,294 @@
+<p align="center">
+  <a href="https://www.korayyalcin.org">
+    <img src="./assets/profile-banner.svg" alt="Koray Yalçın — Real Estate Growth, CRM, PropTech and AI" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.korayyalcin.org"><img src="https://img.shields.io/badge/Website-korayyalcin.org-0d1117?style=for-the-badge" alt="Website" /></a>
+  <a href="https://www.korayyalcin.org/yayinlar-arastirmalar/"><img src="https://img.shields.io/badge/Research-Knowledge_Hub-0969da?style=for-the-badge" alt="Research Hub" /></a>
+  <a href="https://www.korayyalcin.org/sistemler/"><img src="https://img.shields.io/badge/Systems-Growth_Architecture-238636?style=for-the-badge" alt="Growth Systems" /></a>
+  <a href="README.en.md"><img src="https://img.shields.io/badge/Language-English-6e7781?style=for-the-badge" alt="English profile" /></a>
+</p>
+
 # Koray Yalçın
 
-**CRM • PropTech • Lead Management • Marketing Automation • AI & GEO**
+**Real Estate Growth Architect • CRM • PropTech • RevOps • Marketing Automation • AI & GEO**
 
-Gayrimenkul sektöründe CRM sistemleri, lead yönetimi, satış otomasyonu, WhatsApp/SMS/e-posta akışları, dijital pazarlama ve yapay zekâ destekli büyüme sistemleri üzerine çalışıyorum.
+Gayrimenkul sektöründe reklamdan satışa uzanan süreci tek bir ölçülebilir sistem olarak ele alıyorum. Lead üretimi, CRM, WhatsApp/SMS/e-posta otomasyonu, satış operasyonları, attribution, dashboard ve yapay zekâ destekli iş akışlarını birbirine bağlayan **lead-to-sale sistemleri** tasarlıyorum.
 
-Amacım; reklamdan gelen bir lead'in CRM'e düşmesinden satışa dönüşmesine kadar geçen süreci **ölçülebilir, otomasyon destekli ve veri odaklı** hale getiren sistemler tasarlamak.
-
-> **English summary:** I work on real estate CRM, lead management, marketing automation, PropTech, AI visibility and measurable lead-to-sale systems.
+> Temel yaklaşım: **Veri → Süreç → Otomasyon → Ölçüm → Öğrenme**
 
 ---
 
-## Hızlı Navigasyon
+## Rakamlarla çalışma alanı
 
-[🌐 Web Sitesi](https://www.korayyalcin.org) · [🇹🇷 Gayrimenkul CRM Rehberi](https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi) · [🌍 Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook) · [💬 WhatsApp Python Chatbot](https://github.com/korayyalcinorg/whatsapp-python-chatbot) · [📊 Sales Machine Dashboard](https://github.com/korayyalcinorg/sales-machine-dashboard)
+| **500.000+** | **24.850+** | **18 proje** | **CRM + Automation** |
+|:---:|:---:|:---:|:---:|
+| Lead yönetimi deneyimi | Benchmark analizindeki lead | Benchmark kapsamındaki konut projesi | CRM, WhatsApp, SMS, e-posta ve satış akışları |
 
----
-
-## Uzmanlık Alanları
-
-| Alan | Odak |
-|---|---|
-| **Gayrimenkul CRM** | Pipeline tasarımı, lead yaşam döngüsü, satış süreçleri |
-| **Lead Management** | Routing, scoring, qualification, speed-to-lead |
-| **Marketing Automation** | Meta Ads → CRM → WhatsApp / SMS / e-posta akışları |
-| **Sales Automation** | Görevler, takip senaryoları, randevu ve satış ekipleri |
-| **PropTech** | Gayrimenkul satış ve pazarlama teknolojileri |
-| **AI & GEO** | AI visibility, Generative Engine Optimization, prompt research |
-| **Growth Analytics** | CPL, contact rate, appointment rate, conversion, cost-per-sale |
+**Kaynaklar:** [KorayYalcin.org](https://www.korayyalcin.org) · [2026 Lead Benchmark](https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/)
 
 ---
 
-## Öne Çıkan Açık Kaynak Projeler
+## Systems I Build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Lead Acquisition & Capture
+
+**Meta Ads · Google Ads · Portallar · Landing Pages · UTM**
+
+Lead'in hangi reklam, kampanya ve kanaldan geldiğini kaybetmeden CRM'e aktaracak veri katmanı.
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ CRM Follow-up Automation
+
+**Routing · Scoring · SLA · Follow-up · Appointment**
+
+Lead atama, ilk temas, tekrar arama, randevu, nurturing ve satış ekibi görevlerini sistematik hale getiren CRM akışı.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 AI Content Funnel
+
+**Research · Blog · Social · Lead Magnet · AI Visibility**
+
+Araştırma, içerik ve otorite varlıklarını tek bir owned-content sisteminde birleştiren yayın mimarisi.
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Sales Dashboard Layer
+
+**Ads · CRM · Appointment · Conversion · Revenue**
+
+Reklam verisini CRM ve satış sonuçlarıyla birleştirerek lead-to-sale performansını görünür hale getiren raporlama katmanı.
+
+</td>
+</tr>
+</table>
+
+[→ Büyüme sistemleri ve entegrasyon altyapısı](https://www.korayyalcin.org/sistemler/)
+
+---
+
+## Saha verisiyle doğrulanan çalışmalar
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚡ Speed-to-Lead
+
+KKTC gayrimenkul vaka analizinde ilk temas süresi **180 dakikadan 3 dakikanın altına** indirildi.
+
+Randevu oranı **%8,2 → %21,4**, satış dönüşümü **%0,6 → %2,85**.
+
+[Case study →](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-kktc-gayrimenkul-lead-nurturing-30-gun/)
+
+</td>
+<td width="33%" valign="top">
+
+### 🧹 CRM Lead Leakage
+
+5.800 lead'lik vaka çalışmasında CRM deduplication ve lead routing mimarisi incelendi.
+
+Mükerrer lead oranı **%24 → %2,1** seviyesine indirildi.
+
+[Case study →](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/)
+
+</td>
+<td width="33%" valign="top">
+
+### 🎯 Programmatic Retargeting
+
+2.150 yüksek niyetli alıcı adayı üzerinde CRM segmentli programatik retargeting yaklaşımı incelendi.
+
+ROAS **3,2x → 16,8x** seviyesine yükseldi.
+
+[Case study →](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/)
+
+</td>
+</tr>
+</table>
+
+> Vaka çalışmaları belirli proje ve dönemlerin saha sonuçlarını gösterir; evrensel performans garantisi olarak yorumlanmamalıdır.
+
+---
+
+## Featured Research & Publications
+
+| Çalışma | Tür | Odak |
+|---|---|---|
+| [**Gayrimenkul Lead Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026**](https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/) | Sektörel Benchmark | 24.850+ lead, 18 proje, Speed-to-Lead, CPL, randevu ve satış dönüşümü |
+| [**KKTC WhatsApp Automation & Speed-to-Lead**](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-kktc-gayrimenkul-lead-nurturing-30-gun/) | Case Study | 3.420 uluslararası lead, CRM + WhatsApp + response time |
+| [**CRM Deduplication & Lead Routing**](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/) | Case Study | 5.800 lead, veri hijyeni, lead leakage, round-robin routing |
+| [**Programmatic Retargeting & ROAS Optimization**](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/) | Case Study | First-party data, programmatic advertising, CRM segmentation |
+| [**Yayınlar & Araştırmalar Knowledge Hub**](https://www.korayyalcin.org/yayinlar-arastirmalar/) | Knowledge Hub | AI, CRM, Lead Generation, PropTech, Gayrimenkul, AdTech |
+| [**Kitaplar & Yayınlar**](https://www.korayyalcin.org/kitaplar/) | Publications | Kitap, e-kitap, benchmark ve araştırma yayınları |
+
+---
+
+## GitHub Labs
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🇹🇷 [Gayrimenkul CRM Rehberi](https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi)
 
-Türkiye ve KKTC odaklı kapsamlı Türkçe CRM ve lead yönetimi kaynağı.
+Türkçe CRM bilgi merkezi: pipeline, lead routing, scoring, speed-to-lead, No Response, WhatsApp otomasyonu, Meta Ads entegrasyonu, Bitrix24, KPI'lar ve indirilebilir şablonlar.
 
-**Kapsam:** Gayrimenkulde CRM, pipeline, lead routing, lead scoring, speed-to-lead, No Response lead yönetimi, WhatsApp CRM otomasyonu, Meta Ads → CRM entegrasyonu, Bitrix24 kullanım modeli, KPI'lar ve indirilebilir CSV/JSON şablonları.
+</td>
+<td width="50%" valign="top">
 
 ### 🌍 [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook)
 
-English open-source frameworks and implementation examples for real estate CRM, lead management, lead nurturing and marketing automation.
+English technical playbook for CRM architecture, lead routing, scoring, nurturing and marketing automation.
 
-**Includes:** CRM pipeline templates, lead scoring, lead routing, WhatsApp follow-up and CRM architecture.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📈 [Real Estate Lead Benchmarks](https://github.com/korayyalcinorg/real-estate-lead-benchmarks)
+
+Benchmark methodology, metric definitions, synthetic datasets, data dictionary, JSON Schema and KPI calculation tools.
+
+</td>
+<td width="50%" valign="top">
 
 ### 💬 [WhatsApp Python Chatbot](https://github.com/korayyalcinorg/whatsapp-python-chatbot)
 
 WhatsApp tabanlı otomasyon ve chatbot deneyleri için Python projesi.
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 📊 [Sales Machine Dashboard](https://github.com/korayyalcinorg/sales-machine-dashboard)
 
-Satış ve lead süreçlerini takip etmek için dashboard odaklı çalışma.
+Lead ve satış süreçlerini dashboard üzerinden takip etmeye yönelik uygulama çalışması.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [Machine-readable Profile](data/koray-yalcin-profile.json)
+
+Koray Yalçın'ın uzmanlık alanları, ana web varlığı ve seçilmiş teknik kaynaklarını Schema.org tabanlı JSON yapısında sunan entity dosyası.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Lead-to-Sale Sistem Mimarisi
+## Lead-to-Sale Architecture
 
 ```mermaid
-flowchart TD
-    A[Meta Ads / Google Ads / Portallar / Web Sitesi] --> B[Lead Capture]
-    B --> C[UTM + Kaynak + Kampanya]
-    C --> D[Duplicate Kontrolü]
-    D --> E[Lead Routing]
-    E --> F[CRM]
-    F --> G[Telefon / WhatsApp / SMS / E-posta]
+flowchart LR
+    A[Acquisition\nMeta / Google / Portals] --> B[Lead Capture]
+    B --> C[Attribution\nUTM + Campaign]
+    C --> D[Deduplication]
+    D --> E[CRM]
+    E --> F[Routing + SLA]
+    F --> G[Call / WhatsApp / SMS / Email]
     G --> H[Qualification]
-    H --> I[Randevu]
+    H --> I[Appointment]
     I --> J[Follow-up]
-    J --> K{Sonuç}
-    K -->|Won| L[Satış]
-    K -->|Lost| M[Kayıp Nedeni]
-    L --> N[Raporlama + Öğrenme]
+    J --> K{Outcome}
+    K -->|Won| L[Revenue]
+    K -->|Lost| M[Lost Reason]
+    L --> N[Analytics + Feedback]
     M --> N
+    N --> A
 ```
 
-Bu yapıda temel soru şudur:
-
-**Hangi reklam hangi lead'i getirdi, bu lead'e ne kadar sürede dönüldü ve sonunda satışa dönüştü mü?**
+**Temel soru:** Hangi reklam hangi lead'i getirdi, lead'e ne kadar sürede dönüldü, hangi temsilci takip etti ve süreç satışa dönüştü mü?
 
 ---
 
-## Seçilmiş Araştırmalar ve Yayınlar
+## Technology & Integration Stack
 
-### Gayrimenkul Lead Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026
+<p>
+  <img src="https://img.shields.io/badge/Meta_Ads-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta Ads" />
+  <img src="https://img.shields.io/badge/Google_Ads-4285F4?style=flat-square&logo=googleads&logoColor=white" alt="Google Ads" />
+  <img src="https://img.shields.io/badge/Bitrix24-2FC6F6?style=flat-square" alt="Bitrix24" />
+  <img src="https://img.shields.io/badge/WhatsApp_Business-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Business" />
+  <img src="https://img.shields.io/badge/Make-6D00CC?style=flat-square" alt="Make" />
+  <img src="https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white" alt="Zapier" />
+  <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" alt="Twilio" />
+  <img src="https://img.shields.io/badge/OpenAI_API-000000?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
+  <img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
+  <img src="https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square" alt="Looker Studio" />
+  <img src="https://img.shields.io/badge/REST_API-0d1117?style=flat-square" alt="REST API" />
+  <img src="https://img.shields.io/badge/Webhooks-238636?style=flat-square" alt="Webhooks" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+</p>
 
-Lead yanıt süresi, takip disiplini ve dönüşüm süreçlerini veri odaklı değerlendiren benchmark çalışması.
+Bu teknoloji listesi tek başına bir "tool stack" değil; reklam → veri → CRM → iletişim → satış → raporlama zincirindeki entegrasyon katmanlarını temsil eder.
 
-[📘 Raporu incele](https://www.korayyalcin.org/kitaplar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-raporu-2026/)
-
-### Meta Ads → CRM → WhatsApp Entegrasyonu Nasıl Çalışır?
-
-Reklam lead'inin CRM'e aktarılması, kaynak bilgisinin korunması, lead atama ve mesajlaşma otomasyonunun tek akışta ele alınması.
-
-[🔗 Araştırmayı oku](https://www.korayyalcin.org/yayinlar-arastirmalar/meta-ads-crm-whatsapp-entegrasyonu-nasil-calisir/)
-
-### No Response Leadler Nasıl Geri Kazanılır?
-
-İlk arama veya mesajlara cevap vermeyen lead'lerin doğrudan kayıp kabul edilmesi yerine yapılandırılmış takip ve nurturing akışlarıyla yeniden işlenmesi.
-
-[🔗 Araştırmayı oku](https://www.korayyalcin.org/yayinlar-arastirmalar/no-response-leadler-nasil-geri-kazanilir/)
-
-### GEO & AI Search Visibility
-
-Generative Engine Optimization, AI görünürlüğü, prompt research, entity coverage ve owned-content stratejileri üzerine çalışmalar.
-
-[🌐 Tüm araştırmalar](https://www.korayyalcin.org)
+[→ Sistem altyapısını incele](https://www.korayyalcin.org/sistemler/)
 
 ---
 
-## Çalışma Prensibi
+## Latest from KorayYalcin.org
 
-CRM'i yalnızca bir yazılım olarak değil, üç katmanlı bir sistem olarak ele alıyorum:
+Bu bölüm GitHub Actions tarafından korayyalcin.org yayın akışından otomatik olarak güncellenir.
 
-```text
-VERİ → SÜREÇ → OTOMASYON
-```
+<!-- LATEST:START -->
 
-- **Veri:** Lead kaynağı, kampanya, bütçe, zamanlama, temas geçmişi ve satış sonucu doğru tutulmalı.
-- **Süreç:** Lead geldiğinde kimin, ne zaman, hangi kanaldan ve kaç kez iletişim kuracağı tanımlanmalı.
-- **Otomasyon:** Atama, görev, mesaj, randevu, nurturing ve raporlama mümkün olduğunca sistematik hale getirilmeli.
+- [Vaka Analizi: Lüks Gayrimenkul Projesinde Programatik Retargeting ve ROAS Optimizasyonu](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/)
+- [Vaka Analizi: İnşaat Projesinde CRM Lead Sızıntılarını Önleme ve Temsilci Performans Analizi](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/)
+- [Vaka Analizi: KKTC Gayrimenkul Projesinde WhatsApp Otomasyonu ve Speed to Lead İyileştirmesi](https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-kktc-gayrimenkul-lead-nurturing-30-gun/)
+- [Gayrimenkul Müşteri Adayı (Lead) Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026](https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/)
+- [Trendyol Reklam Sistemi Nasıl Çalışıyor?](https://www.korayyalcin.org/yayinlar-arastirmalar/trendyol-reklam-sistemi/)
 
-Amaç daha fazla veri toplamak değil; **doğru lead'i doğru kişiye, doğru zamanda ve doğru kanalla ulaştırmak ve tüm süreci ölçebilmek**.
+<!-- LATEST:END -->
+
+[→ Tüm yayınları görüntüle](https://www.korayyalcin.org/yayinlar-arastirmalar/)
 
 ---
 
-## Odaklandığım Kavramlar
+## Research Data & Entity Layer
 
-`real-estate-crm` · `gayrimenkul-crm` · `lead-management` · `lead-generation` · `lead-nurturing` · `lead-routing` · `lead-scoring` · `speed-to-lead` · `marketing-automation` · `sales-automation` · `whatsapp-crm` · `meta-ads` · `bitrix24` · `proptech` · `geo` · `ai-search` · `generative-engine-optimization`
+GitHub profilini yalnızca görsel bir portföy olarak değil, makine tarafından okunabilir bir kaynak olarak da kullanıyorum.
+
+- [`data/koray-yalcin-profile.json`](data/koray-yalcin-profile.json) — Schema.org tabanlı kişi/uzmanlık verisi
+- [`data/research-index.json`](data/research-index.json) — seçilmiş araştırmaların yapılandırılmış indeksi
+- [`real-estate-lead-benchmarks`](https://github.com/korayyalcinorg/real-estate-lead-benchmarks) — benchmark metodolojisi ve teknik veri katmanı
+- [`gayrimenkul-crm-rehberi`](https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi) — Türkçe CRM bilgi tabanı
+
+---
+
+## Odak Alanları
+
+`real-estate-crm` · `lead-management` · `speed-to-lead` · `lead-routing` · `lead-scoring` · `lead-nurturing` · `marketing-automation` · `sales-automation` · `revops` · `whatsapp-crm` · `proptech` · `marketing-analytics` · `programmatic-advertising` · `geo` · `ai-search` · `generative-engine-optimization`
 
 ---
 
 ## For International Visitors
 
-I publish open-source resources and research around **real estate CRM, lead management, sales automation, marketing automation, PropTech and AI visibility**.
+I publish research, frameworks and technical resources around **real estate CRM, lead management, RevOps, sales automation, PropTech and AI visibility**.
 
-Start here:
-
-- [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook)
-- [KorayYalcin.org](https://www.korayyalcin.org)
+**Start here:** [English Profile](README.en.md) · [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook) · [Real Estate Lead Benchmarks](https://github.com/korayyalcinorg/real-estate-lead-benchmarks) · [KorayYalcin.org](https://www.korayyalcin.org)
 
 ---
 
-## Bağlantılar
-
-- 🌐 Website: [korayyalcin.org](https://www.korayyalcin.org)
-- 🇹🇷 GitHub: [Gayrimenkul CRM Rehberi](https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi)
-- 🌍 GitHub: [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook)
-- 💬 GitHub: [WhatsApp Python Chatbot](https://github.com/korayyalcinorg/whatsapp-python-chatbot)
-- 📊 GitHub: [Sales Machine Dashboard](https://github.com/korayyalcinorg/sales-machine-dashboard)
-
----
-
-**Koray Yalçın**  
-CRM • PropTech • Lead Management • Marketing Automation • AI & GEO
+<p align="center">
+  <strong>Koray Yalçın</strong><br/>
+  CRM • PropTech • RevOps • Lead Management • Marketing Automation • AI & GEO<br/><br/>
+  <a href="https://www.korayyalcin.org">Website</a> ·
+  <a href="https://www.korayyalcin.org/yayinlar-arastirmalar/">Research</a> ·
+  <a href="https://www.korayyalcin.org/sistemler/">Systems</a> ·
+  <a href="https://www.korayyalcin.org/kitaplar/">Books & Publications</a>
+</p>
