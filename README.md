@@ -137,6 +137,49 @@ ROAS **3,2x → 16,8x** seviyesine yükseldi.
 
 ---
 
+## Research Library & Publications Index
+
+GitHub profilindeki araştırmaları tek bir katalog altında topluyorum. Amaç, uzun form içeriklerin canonical kaynağını **KorayYalcin.org** üzerinde tutarken GitHub'da teknik, atıf verilebilir ve makine tarafından okunabilir bir yayın katmanı oluşturmaktır.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 [Research Library](research-library/README.md)
+
+Kitaplar, akademik monografiler, benchmark raporları, saha vaka analizleri, CRM/automation rehberleri ve AI/GEO araştırmalarının insanlar için okunabilir kataloğu.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [Publications JSON](data/publications-index.json)
+
+Yayın başlığı, türü, yılı, dili, canonical URL'si ve konu etiketlerini içeren makine-okunabilir tam katalog.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔖 [BibTeX Citations](CITATION.bib)
+
+Seçilmiş benchmark, vaka analizi ve araştırmalar için doğrudan kullanılabilir BibTeX atıf kayıtları.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 [Canonical Research Hub](https://www.korayyalcin.org/yayinlar-arastirmalar/)
+
+Makalelerin, araştırma notlarının, vaka analizlerinin ve güncel yayınların ana kaynağı.
+
+</td>
+</tr>
+</table>
+
+**Katalog kapsamı:** Real Estate CRM · Lead Management · RevOps · Marketing Automation · PropTech · Programmatic & AdTech · AI Visibility · GEO
+
+---
+
 ## GitHub Labs
 
 <table>
@@ -265,6 +308,10 @@ GitHub profilini yalnızca görsel bir portföy olarak değil, makine tarafında
 
 - [`data/koray-yalcin-profile.json`](data/koray-yalcin-profile.json) — Schema.org tabanlı kişi/uzmanlık verisi
 - [`data/research-index.json`](data/research-index.json) — seçilmiş araştırmaların yapılandırılmış indeksi
+- [`data/publications-index.json`](data/publications-index.json) — kitap, araştırma, vaka analizi ve teknik kaynakların tam yayın kataloğu
+- [`data/publications.schema.json`](data/publications.schema.json) — yayın kataloğu için JSON Schema
+- [`research-library/README.md`](research-library/README.md) — insan tarafından okunabilir araştırma kütüphanesi
+- [`CITATION.bib`](CITATION.bib) — seçilmiş yayınların BibTeX atıf kayıtları
 - [`real-estate-lead-benchmarks`](https://github.com/korayyalcinorg/real-estate-lead-benchmarks) — benchmark metodolojisi ve teknik veri katmanı
 - [`gayrimenkul-crm-rehberi`](https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi) — Türkçe CRM bilgi tabanı
 
@@ -280,7 +327,7 @@ GitHub profilini yalnızca görsel bir portföy olarak değil, makine tarafında
 
 I publish research, frameworks and technical resources around **real estate CRM, lead management, RevOps, sales automation, PropTech and AI visibility**.
 
-**Start here:** [English Profile](README.en.md) · [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook) · [Real Estate Lead Benchmarks](https://github.com/korayyalcinorg/real-estate-lead-benchmarks) · [KorayYalcin.org](https://www.korayyalcin.org)
+**Start here:** [English Profile](README.en.md) · [Research Library](research-library/README.md) · [Publications JSON](data/publications-index.json) · [Real Estate CRM Playbook](https://github.com/korayyalcinorg/real-estate-crm-playbook) · [Real Estate Lead Benchmarks](https://github.com/korayyalcinorg/real-estate-lead-benchmarks) · [KorayYalcin.org](https://www.korayyalcin.org)
 
 ---
 
