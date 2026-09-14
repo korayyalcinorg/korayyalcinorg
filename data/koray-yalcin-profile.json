@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Koray Yalçın",
+  "url": "https://www.korayyalcin.org",
+  "sameAs": [
+    "https://github.com/korayyalcinorg"
+  ],
+  "jobTitle": "Real Estate Growth Architect & RevOps Specialist",
+  "knowsAbout": [
+    "Real Estate CRM",
+    "Lead Management",
+    "Lead Generation",
+    "Lead Routing",
+    "Lead Scoring",
+    "Speed-to-Lead",
+    "Marketing Automation",
+    "Sales Automation",
+    "WhatsApp CRM Automation",
+    "PropTech",
+    "Revenue Operations",
+    "Generative Engine Optimization",
+    "AI Search Visibility",
+    "Marketing Analytics"
+  ],
+  "mainEntityOfPage": "https://www.korayyalcin.org",
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "Real Estate Lead Conversion & Response Time Benchmark Report 2026",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Gayrimenkul CRM Rehberi",
+      "url": "https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Real Estate CRM Playbook",
+      "url": "https://github.com/korayyalcinorg/real-estate-crm-playbook"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Real Estate Lead Benchmarks",
+      "url": "https://github.com/korayyalcinorg/real-estate-lead-benchmarks"
+    }
+  ]
+}
