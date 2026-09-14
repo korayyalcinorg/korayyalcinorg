@@ -1,0 +1,221 @@
+{
+  "name": "Koray Yalcin Research Library & Publications Index",
+  "author": "Koray Yalçın",
+  "publisher": "KorayYalcin.org",
+  "canonical_hub": "https://www.korayyalcin.org/yayinlar-arastirmalar/",
+  "books_hub": "https://www.korayyalcin.org/kitaplar/",
+  "updated": "2026-09-14",
+  "language": ["tr", "en"],
+  "topics": [
+    "real-estate-crm",
+    "lead-management",
+    "revops",
+    "marketing-automation",
+    "proptech",
+    "adtech",
+    "ai-visibility",
+    "geo"
+  ],
+  "items": [
+    {
+      "id": "book-real-estate-lead-management",
+      "title": "Gayrimenkul Sektöründe Lead Yönetimi ve Müşteri Dönüşüm Sistemleri",
+      "type": "Book",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/kitaplar/",
+      "topics": ["real-estate", "crm", "lead-management", "sales-automation"]
+    },
+    {
+      "id": "monograph-north-cyprus-revops",
+      "title": "Kuzey Kıbrıs Gayrimenkul Sektöründe Yapay Zeka Destekli Revenue Operations (RevOps) Sistemleri",
+      "type": "Academic Monograph",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/kitaplar/",
+      "topics": ["north-cyprus", "revops", "crm", "marketing-automation", "ai"]
+    },
+    {
+      "id": "benchmark-real-estate-leads-2026",
+      "title": "Gayrimenkul Müşteri Adayı (Lead) Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026",
+      "type": "Sector Benchmark Report",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/",
+      "scope": "24,850 aggregated digital leads across 18 residential projects over a 12-month review period",
+      "topics": ["speed-to-lead", "cpl", "appointment-rate", "lead-to-sale", "real-estate-crm"],
+      "related_repository": "https://github.com/korayyalcinorg/real-estate-lead-benchmarks"
+    },
+    {
+      "id": "case-study-kktc-whatsapp-speed-to-lead",
+      "title": "Vaka Analizi: KKTC Gayrimenkul Projesinde WhatsApp Otomasyonu ve Speed to Lead İyileştirmesi",
+      "type": "Case Study",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-kktc-gayrimenkul-lead-nurturing-30-gun/",
+      "topics": ["whatsapp-automation", "speed-to-lead", "lead-nurturing", "proptech"]
+    },
+    {
+      "id": "case-study-crm-deduplication-routing",
+      "title": "Vaka Analizi: İnşaat Projesinde CRM Lead Sızıntılarını Önleme ve Temsilci Performans Analizi",
+      "type": "Case Study",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/",
+      "topics": ["crm-deduplication", "lead-routing", "lead-leakage", "sales-sla"]
+    },
+    {
+      "id": "case-study-programmatic-retargeting",
+      "title": "Vaka Analizi: Lüks Gayrimenkul Projesinde Programatik Retargeting ve ROAS Optimizasyonu",
+      "type": "Case Study",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/",
+      "topics": ["programmatic-advertising", "retargeting", "first-party-data", "roas"]
+    },
+    {
+      "id": "b2b-lead-nurturing-30-day",
+      "title": "30 Günlük B2B Lead Nurturing Playbook",
+      "type": "Playbook",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/30-gunluk-b2b-lead-nurturing-playbook/",
+      "topics": ["lead-nurturing", "drip-campaign", "content-mapping", "conversion"]
+    },
+    {
+      "id": "meta-lead-whatsapp-automation",
+      "title": "Meta Lead Reklamlarından WhatsApp'a Otomatik Mesaj Gönderme",
+      "type": "System Guide",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/meta-lead-form-whatsapp-otomatik-mesaj/",
+      "topics": ["meta-ads", "whatsapp", "automation", "lead-response"]
+    },
+    {
+      "id": "utm-to-crm-guide",
+      "title": "UTM Parametrelerini CRM Veritabanına Yazma Kılavuzu",
+      "type": "Technical Guide",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/utm-parametrelerini-crm-veritabanina-yazma/",
+      "topics": ["utm", "crm", "attribution", "marketing-analytics"]
+    },
+    {
+      "id": "meta-ads-crm-whatsapp-integration",
+      "title": "Meta Ads, CRM ve WhatsApp Entegrasyonu Nasıl Çalışır?",
+      "type": "System Architecture",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/meta-ads-crm-whatsapp-entegrasyonu-nasil-calisir/",
+      "topics": ["meta-ads", "crm", "whatsapp", "integration", "marketing-automation"]
+    },
+    {
+      "id": "no-response-lead-recovery",
+      "title": "No Response Lead’ler Nasıl Geri Kazanılır?",
+      "type": "Guide",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/no-response-leadler-nasil-geri-kazanilir/",
+      "topics": ["no-response", "lead-recovery", "lead-nurturing", "whatsapp"]
+    },
+    {
+      "id": "whatsapp-automation-definition",
+      "title": "WhatsApp Otomasyonu Nedir?",
+      "type": "Article",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/whatsapp-otomasyonu-nedir/",
+      "topics": ["whatsapp-business", "automation", "crm"]
+    },
+    {
+      "id": "crm-for-construction",
+      "title": "CRM Nedir ve İnşaat Firmaları İçin Neden Önemlidir?",
+      "type": "Article",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/crm-nedir-insaat-firmalari-icin-onemi/",
+      "topics": ["crm", "construction", "real-estate", "data-management"]
+    },
+    {
+      "id": "real-estate-lead-definition",
+      "title": "Gayrimenkulde Lead Nedir?",
+      "type": "Article",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkulde-lead-nedir/",
+      "topics": ["real-estate-lead", "lead-generation", "qualification"]
+    },
+    {
+      "id": "proptech-definition",
+      "title": "PropTech Nedir ve Gayrimenkul Sektörünü Nasıl Değiştiriyor?",
+      "type": "Article",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/proptech-nedir-gayrimenkul-sektorunu-nasil-degistiriyor/",
+      "topics": ["proptech", "real-estate-technology", "digital-transformation"]
+    },
+    {
+      "id": "ai-powered-growth-systems-real-estate",
+      "title": "AI Powered Growth Systems for Real Estate",
+      "type": "Research Note",
+      "year": 2026,
+      "language": "en",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/ai-powered-growth-systems-real-estate/",
+      "topics": ["ai", "real-estate", "growth-systems", "automation"]
+    },
+    {
+      "id": "real-estate-crm-automation-guide",
+      "title": "Gayrimenkul Firmaları İçin CRM Otomasyonu Rehberi",
+      "type": "Research Note",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-crm-otomasyonu-rehberi/",
+      "topics": ["real-estate-crm", "pipeline", "automation", "analytics"]
+    },
+    {
+      "id": "llm-visibility-chatgpt-traffic",
+      "title": "LLM Görünürlüğü ve ChatGPT Trafik Takibi",
+      "type": "Research Note",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/llm-gorunurlugu-ve-chatgpt-trafik-takibi/",
+      "topics": ["geo", "ai-search", "llm-visibility", "chatgpt-traffic"]
+    },
+    {
+      "id": "lead-gen-crm-retargeting",
+      "title": "Lead Generation + CRM + Retargeting Nasıl Birlikte Çalışır?",
+      "type": "Research Note",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/lead-generation-crm-retargeting/",
+      "topics": ["lead-generation", "crm", "retargeting", "closed-loop-marketing"]
+    },
+    {
+      "id": "github-gayrimenkul-crm-rehberi",
+      "title": "Gayrimenkul CRM Rehberi",
+      "type": "GitHub Technical Resource",
+      "year": 2026,
+      "language": "tr",
+      "url": "https://github.com/korayyalcinorg/gayrimenkul-crm-rehberi",
+      "topics": ["real-estate-crm", "lead-management", "whatsapp-crm", "templates"]
+    },
+    {
+      "id": "github-real-estate-crm-playbook",
+      "title": "Real Estate CRM Playbook",
+      "type": "GitHub Technical Resource",
+      "year": 2026,
+      "language": "en",
+      "url": "https://github.com/korayyalcinorg/real-estate-crm-playbook",
+      "topics": ["real-estate-crm", "lead-routing", "lead-scoring", "lead-nurturing"]
+    },
+    {
+      "id": "github-real-estate-lead-benchmarks",
+      "title": "Real Estate Lead Benchmarks",
+      "type": "GitHub Technical Resource",
+      "year": 2026,
+      "language": "en",
+      "url": "https://github.com/korayyalcinorg/real-estate-lead-benchmarks",
+      "topics": ["benchmark", "speed-to-lead", "conversion", "sales-analytics"]
+    }
+  ]
+}
