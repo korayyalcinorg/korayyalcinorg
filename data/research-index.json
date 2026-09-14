@@ -1,0 +1,39 @@
+{
+  "publisher": "KorayYalcin.org",
+  "author": "Koray Yalçın",
+  "updated": "2026-09-14",
+  "items": [
+    {
+      "title": "Gayrimenkul Müşteri Adayı (Lead) Dönüşüm ve Yanıt Süresi Benchmark Raporu 2026",
+      "type": "Sector Benchmark Report",
+      "year": 2026,
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/gayrimenkul-lead-donusum-ve-yanit-suresi-benchmark-2026/",
+      "scope": "24,850 aggregated digital leads across 18 residential projects and a 12-month review period",
+      "topics": ["speed-to-lead", "contact-rate", "appointment-rate", "lead-to-sale", "real-estate-crm"]
+    },
+    {
+      "title": "Vaka Analizi: KKTC Gayrimenkul Projesinde WhatsApp Otomasyonu ve Speed to Lead İyileştirmesi",
+      "type": "Case Study",
+      "year": 2026,
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-kktc-gayrimenkul-lead-nurturing-30-gun/",
+      "scope": "3,420 international leads over 90 days",
+      "topics": ["whatsapp-automation", "speed-to-lead", "lead-nurturing", "proptech"]
+    },
+    {
+      "title": "Vaka Analizi: İnşaat Projesinde CRM Lead Sızıntılarını Önleme ve Temsilci Performans Analizi",
+      "type": "Case Study",
+      "year": 2026,
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-insaat-firmasi-crm-deduplication-ve-lead-routing/",
+      "scope": "5,800 digital leads over 120 days",
+      "topics": ["crm-deduplication", "lead-routing", "lead-leakage", "sales-sla"]
+    },
+    {
+      "title": "Vaka Analizi: Lüks Gayrimenkul Projesinde Programatik Retargeting ve ROAS Optimizasyonu",
+      "type": "Case Study",
+      "year": 2026,
+      "url": "https://www.korayyalcin.org/yayinlar-arastirmalar/case-study-gayrimenkul-programmatic-retargeting-roas-optimizasyonu/",
+      "scope": "2,150 high-intent buyer leads",
+      "topics": ["programmatic-advertising", "retargeting", "first-party-data", "roas"]
+    }
+  ]
+}
