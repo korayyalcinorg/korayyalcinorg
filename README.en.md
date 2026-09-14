@@ -32,6 +32,17 @@ I build measurable lead-to-sale systems for real estate teams by connecting acqu
 - [Growth Systems](https://www.korayyalcin.org/sistemler/)
 - [Books & Publications](https://www.korayyalcin.org/kitaplar/)
 
+## Research Library & Machine-readable Catalog
+
+The profile repository also contains a structured publication layer so research can be browsed by people and consumed programmatically.
+
+- [Research Library](research-library/README.md) — human-readable catalog of books, benchmark reports, case studies, CRM/automation guides and AI/GEO research.
+- [Publications JSON](data/publications-index.json) — complete machine-readable publication index.
+- [Publications JSON Schema](data/publications.schema.json) — schema for validating the catalog.
+- [Selected Research Index](data/research-index.json) — high-priority research subset.
+- [BibTeX Citations](CITATION.bib) — citation records for selected publications.
+- [Canonical Research Hub](https://www.korayyalcin.org/yayinlar-arastirmalar/) — primary source for full articles and current research.
+
 ## Working Model
 
 ```text
