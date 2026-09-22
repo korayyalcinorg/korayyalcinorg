@@ -231,6 +231,22 @@ Koray Yalçın'ın uzmanlık alanları, ana web varlığı ve seçilmiş teknik 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎓 [Researcher Identity Starter](projects/researcher-identity-starter/README.md)
+
+Araştırmacılar, bağımsız akademisyenler ve yazarlar için tek dosyalık public identity landing page; ORCID, ISNI, Wikidata, Scholar, yayınlar ve Schema.org Person yapısını bir araya getirir.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [Schema.org Person JSON-LD Example](technical-examples/schema-person-jsonld/README.md)
+
+`sameAs`, `identifier`, W3C/ORCID/ISNI ayrımı ve bağımlılıksız doğrulama scripti içeren küçük teknik örnek.
+
+</td>
+</tr>
 </table>
 
 ---
@@ -308,6 +324,7 @@ GitHub profilini yalnızca görsel bir portföy olarak değil, makine tarafında
 
 - [`data/koray-yalcin-profile.json`](data/koray-yalcin-profile.json) — Schema.org tabanlı kişi/uzmanlık verisi
 - [`technical-examples/schema-person-jsonld`](technical-examples/schema-person-jsonld/README.md) — Schema.org Person JSON-LD, `sameAs` / `identifier` ayrımı ve bağımlılıksız doğrulama örneği
+- [`projects/researcher-identity-starter`](projects/researcher-identity-starter/README.md) — araştırmacılar ve akademik/profesyonel profiller için tek dosyalık identity/reference landing page starter'ı
 - [`data/research-index.json`](data/research-index.json) — seçilmiş araştırmaların yapılandırılmış indeksi
 - [`data/publications-index.json`](data/publications-index.json) — kitap, araştırma, vaka analizi ve teknik kaynakların tam yayın kataloğu
 - [`data/publications.schema.json`](data/publications.schema.json) — yayın kataloğu için JSON Schema
