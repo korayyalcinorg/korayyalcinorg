@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://example.org/books/example-book#book",
+  "name": "Example Research Book",
+  "url": "https://example.org/books/example-book",
+  "datePublished": "2025",
+  "author": {
+    "@id": "https://example.org/#person"
+  },
+  "isbn": "978-0-00-000000-0"
+}
