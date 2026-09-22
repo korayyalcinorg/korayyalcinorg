@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://example.org/research/example-article#article",
+  "headline": "Example Scholarly Article",
+  "datePublished": "2026-09-22",
+  "url": "https://example.org/research/example-article",
+  "author": {
+    "@id": "https://example.org/#person"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.0000/example.article"
+  },
+  "sameAs": [
+    "https://doi.org/10.0000/example.article"
+  ]
+}
