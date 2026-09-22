@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.korayyalcin.org/#person",
+  "name": "Koray Yalçın",
+  "url": "https://www.korayyalcin.org/",
+  "jobTitle": "Real Estate Growth Architect & RevOps Specialist",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0005-0907-9370"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISNI",
+      "value": "0000000531624227"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/korayyalcinorg",
+    "https://www.wikidata.org/wiki/Q141467418",
+    "https://orcid.org/0009-0005-0907-9370",
+    "https://www.w3.org/users/179917/"
+  ],
+  "knowsAbout": [
+    "CRM",
+    "Revenue Operations",
+    "Marketing Automation",
+    "PropTech",
+    "Structured Data",
+    "Generative Engine Optimization"
+  ]
+}
