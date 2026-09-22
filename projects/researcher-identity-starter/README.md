@@ -52,6 +52,8 @@ researcher-identity-starter/
 ├── CHECKLIST.md
 ├── STANDALONE_REPO_SETUP.md
 ├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── CITATION.cff
 ├── LICENSE
 ├── assets/
 │   └── preview.svg
@@ -259,9 +261,15 @@ For a smaller Schema.org-only implementation:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Citation
+
+The project includes [CITATION.cff](CITATION.cff) so it is ready for GitHub's citation workflow when published as a standalone repository.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+Version history: [CHANGELOG.md](CHANGELOG.md).
 
 ## Author / maintainer
 
