@@ -1,0 +1,40 @@
+{
+  "name": "Ada Researcher",
+  "canonicalUrl": "https://example.org/",
+  "canonicalPersonId": "https://example.org/#person",
+  "headline": "Independent Researcher · Data · AI · Open Web",
+  "bio": "Independent researcher working on practical applications of data, artificial intelligence and open web technologies.",
+  "profiles": [
+    {
+      "platform": "ORCID",
+      "url": "https://orcid.org/0000-0000-0000-0000",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true
+    },
+    {
+      "platform": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q000000",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/example",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "ORCID",
+      "value": "0000-0000-0000-0000"
+    },
+    {
+      "type": "ISNI",
+      "value": "0000000000000000"
+    }
+  ]
+}
