@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://example.org/#person",
+  "name": "Ada Researcher",
+  "url": "https://example.org/",
+  "description": "Independent researcher working on practical applications of data, artificial intelligence and open web technologies.",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0000-0000-0000"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISNI",
+      "value": "0000000000000000"
+    }
+  ],
+  "sameAs": [
+    "https://orcid.org/0000-0000-0000-0000",
+    "https://www.wikidata.org/wiki/Q000000",
+    "https://github.com/example"
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Data",
+    "Open Web"
+  ]
+}
