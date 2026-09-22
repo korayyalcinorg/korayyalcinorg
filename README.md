@@ -307,6 +307,7 @@ Bu bölüm GitHub Actions tarafından korayyalcin.org yayın akışından otomat
 GitHub profilini yalnızca görsel bir portföy olarak değil, makine tarafından okunabilir bir kaynak olarak da kullanıyorum.
 
 - [`data/koray-yalcin-profile.json`](data/koray-yalcin-profile.json) — Schema.org tabanlı kişi/uzmanlık verisi
+- [`technical-examples/schema-person-jsonld`](technical-examples/schema-person-jsonld/README.md) — Schema.org Person JSON-LD, `sameAs` / `identifier` ayrımı ve bağımlılıksız doğrulama örneği
 - [`data/research-index.json`](data/research-index.json) — seçilmiş araştırmaların yapılandırılmış indeksi
 - [`data/publications-index.json`](data/publications-index.json) — kitap, araştırma, vaka analizi ve teknik kaynakların tam yayın kataloğu
 - [`data/publications.schema.json`](data/publications.schema.json) — yayın kataloğu için JSON Schema
