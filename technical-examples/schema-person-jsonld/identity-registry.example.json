@@ -1,0 +1,54 @@
+{
+  "canonicalPersonId": "https://www.korayyalcin.org/#person",
+  "canonicalUrl": "https://www.korayyalcin.org/",
+  "profiles": [
+    {
+      "id": "github",
+      "platform": "GitHub",
+      "url": "https://github.com/korayyalcinorg",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true
+    },
+    {
+      "id": "wikidata",
+      "platform": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q141467418",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true
+    },
+    {
+      "id": "orcid",
+      "platform": "ORCID",
+      "url": "https://orcid.org/0009-0005-0907-9370",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true,
+      "identifierType": "ORCID",
+      "identifier": "0009-0005-0907-9370"
+    },
+    {
+      "id": "w3c",
+      "platform": "W3C",
+      "url": "https://www.w3.org/users/179917/",
+      "status": "public",
+      "verified": true,
+      "useInSameAs": true,
+      "identifierType": null,
+      "identifier": null
+    }
+  ],
+  "authorityIdentifiers": [
+    {
+      "id": "isni",
+      "type": "ISNI",
+      "value": "0000000531624227"
+    },
+    {
+      "id": "orcid-id",
+      "type": "ORCID",
+      "value": "0009-0005-0907-9370"
+    }
+  ]
+}
