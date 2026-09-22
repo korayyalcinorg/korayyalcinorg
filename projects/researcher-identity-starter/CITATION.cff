@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this starter in a research or academic identity project, you can cite it using the metadata below."
+title: "Researcher Identity Starter"
+type: software
+authors:
+  - family-names: "Yalçın"
+    given-names: "Koray"
+    orcid: "https://orcid.org/0009-0005-0907-9370"
+version: 0.1.0
+date-released: 2026-09-22
+license: MIT
+repository-code: "https://github.com/korayyalcinorg/korayyalcinorg"
+url: "https://github.com/korayyalcinorg/korayyalcinorg/tree/main/projects/researcher-identity-starter"
+abstract: "A zero-dependency researcher identity landing page and Schema.org starter for connecting public academic profiles, authority identifiers and research works to one canonical Person entity."
+keywords:
+  - researcher profile
+  - academic profile
+  - Schema.org
+  - JSON-LD
+  - ORCID
+  - Wikidata
+  - structured data
+  - digital identity
