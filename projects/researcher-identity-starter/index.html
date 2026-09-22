@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Researcher Identity Hub</title>
+  <meta name="description" content="A compact researcher identity, publications and structured-data landing page." />
+  <style>
+    :root{--bg:#f5f7fb;--card:#fff;--ink:#11213d;--muted:#667085;--line:#dfe5ef;--accent:#174ea6;--soft:#edf4ff;--good:#137333}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+    a{color:var(--accent);text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:32px 20px 60px}
+    .hero{background:linear-gradient(135deg,#10264b,#1f5ca8);color:white;padding:42px;border-radius:22px;box-shadow:0 18px 45px rgba(22,44,84,.16)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;opacity:.72}.hero h1{font-size:42px;line-height:1.05;margin:10px 0}.hero p{max-width:780px;font-size:18px;line-height:1.6;opacity:.9}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.badge{border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);padding:8px 11px;border-radius:999px;font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+    .card h2{margin:0 0 15px;font-size:18px}.row{display:grid;grid-template-columns:150px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}.row:first-of-type{border-top:0}
+    .label{font-weight:700}.value{word-break:break-word;color:#344054}.btn{border:1px solid var(--line);background:white;border-radius:9px;padding:8px 10px;cursor:pointer}.btn:hover{background:#f8fafc}
+    .status{font-size:12px;background:#e9f7ee;color:var(--good);padding:4px 8px;border-radius:999px;font-weight:700}
+    .section{margin-top:22px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.search{flex:1;min-width:230px;border:1px solid var(--line);border-radius:10px;padding:11px 13px;font:inherit}
+    table{width:100%;border-collapse:collapse;background:white;border-radius:16px;overflow:hidden;border:1px solid var(--line)}th,td{text-align:left;padding:13px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f8fafc;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:#667085}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}.note{color:var(--muted);font-size:14px;line-height:1.55}.footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:760px){.hero{padding:28px}.hero h1{font-size:34px}.grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}.desktop-table{display:none}}
+    @media(min-width:761px){.mobile-publications{display:none}}
+    .pub-card{background:white;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:10px}.pub-card strong{display:block;margin-bottom:6px}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">Researcher identity starter</div>
+    <h1 id="name">Researcher Name</h1>
+    <p id="headline">Researcher headline</p>
+    <p id="bio"></p>
+    <div class="badges" id="topicBadges"></div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Canonical identity</h2>
+      <div class="row"><div class="label">Website</div><div class="value mono" id="canonicalUrl"></div><button class="btn" data-copy-target="canonicalUrl">Copy</button></div>
+      <div class="row"><div class="label">Person @id</div><div class="value mono" id="personId"></div><button class="btn" data-copy-target="personId">Copy</button></div>
+      <div class="row"><div class="label">Updated</div><div class="value" id="updated"></div><span class="status">Public</span></div>
+    </section>
+
+    <section class="card">
+      <h2>Identifiers</h2>
+      <div id="identifiers"></div>
+    </section>
+  </div>
+
+  <section class="card section">
+    <h2>Public profiles & authority pages</h2>
+    <div id="profiles"></div>
+  </section>
+
+  <section class="card section">
+    <div class="toolbar">
+      <input class="search" id="publicationSearch" placeholder="Search title, venue, DOI, topic..." />
+      <button class="btn" id="copySameAs">Copy sameAs JSON</button>
+      <button class="btn" id="copyPerson">Copy Person JSON-LD</button>
+    </div>
+    <h2>Publications & research works</h2>
+    <div class="desktop-table">
+      <table>
+        <thead><tr><th>Year</th><th>Work</th><th>Venue</th><th>Identifier</th><th>Link</th></tr></thead>
+        <tbody id="publicationRows"></tbody>
+      </table>
+    </div>
+    <div class="mobile-publications" id="publicationCards"></div>
+  </section>
+
+  <section class="card section">
+    <h2>Implementation note</h2>
+    <p class="note">Use one canonical Person @id on your own domain. Public profile pages can be linked with <code>sameAs</code>; ORCID and ISNI can be represented as Person identifiers. DOI and ISBN belong to the relevant work, not to the Person node.</p>
+  </section>
+
+  <div class="footer">Researcher Identity Starter · zero dependencies · edit the JSON block and publish</div>
+</div>
+
+<script id="RESEARCHER_PROFILE" type="application/json">
+{
+  "name": "Ada Researcher",
+  "headline": "Independent Researcher · Data · AI · Open Web",
+  "bio": "Independent researcher working on practical applications of data, artificial intelligence and open web technologies.",
+  "canonicalUrl": "https://example.org/",
+  "personId": "https://example.org/#person",
+  "updated": "2026-09-22",
+  "topics": ["Artificial Intelligence", "Data", "Open Web"],
+  "identifiers": [
+    {"type":"ORCID","value":"0000-0000-0000-0000"},
+    {"type":"ISNI","value":"0000000000000000"}
+  ],
+  "profiles": [
+    {"platform":"ORCID","url":"https://orcid.org/0000-0000-0000-0000"},
+    {"platform":"Wikidata","url":"https://www.wikidata.org/wiki/Q000000"},
+    {"platform":"GitHub","url":"https://github.com/example"}
+  ],
+  "publications": [
+    {"year":"2026","title":"Example Research Report","venue":"Research Repository","identifierType":"DOI","identifier":"10.0000/example.1","url":"https://example.org/research/example-report"},
+    {"year":"2025","title":"Example Research Book","venue":"Example Publisher","identifierType":"ISBN","identifier":"978-0-00-000000-0","url":"https://example.org/books/example-book"}
+  ]
+}
+</script>
+
+<script>
+const data = JSON.parse(document.getElementById("RESEARCHER_PROFILE").textContent);
+const $ = id => document.getElementById(id);
+const escapeHtml = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
+$("name").textContent=data.name;$("headline").textContent=data.headline;$("bio").textContent=data.bio;
+$("canonicalUrl").textContent=data.canonicalUrl;$("personId").textContent=data.personId;$("updated").textContent=data.updated;
+$("topicBadges").innerHTML=data.topics.map(x=>`<span class="badge">${escapeHtml(x)}</span>`).join("");
+$("identifiers").innerHTML=data.identifiers.map((x,i)=>`<div class="row"><div class="label">${escapeHtml(x.type)}</div><div class="value mono" id="identifier-${i}">${escapeHtml(x.value)}</div><button class="btn" data-copy-target="identifier-${i}">Copy</button></div>`).join("");
+$("profiles").innerHTML=data.profiles.map((x,i)=>`<div class="row"><div class="label">${escapeHtml(x.platform)}</div><div class="value"><a href="${escapeHtml(x.url)}" target="_blank" rel="me noopener">${escapeHtml(x.url)}</a></div><button class="btn" data-copy-value="${escapeHtml(x.url)}">Copy</button></div>`).join("");
+
+const personJsonLd = {
+  "@context":"https://schema.org","@type":"Person","@id":data.personId,name:data.name,url:data.canonicalUrl,description:data.bio,
+  identifier:data.identifiers.map(x=>({"@type":"PropertyValue",propertyID:x.type,value:x.value})),
+  sameAs:data.profiles.map(x=>x.url),
+  knowsAbout:data.topics
+};
+
+function renderPublications(q=""){
+  const query=q.trim().toLowerCase();
+  const rows=data.publications.filter(p=>Object.values(p).join(" ").toLowerCase().includes(query));
+  $("publicationRows").innerHTML=rows.map(p=>`<tr><td>${escapeHtml(p.year)}</td><td><strong>${escapeHtml(p.title)}</strong></td><td>${escapeHtml(p.venue)}</td><td><span class="mono">${escapeHtml(p.identifierType)}: ${escapeHtml(p.identifier)}</span></td><td><a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">Open ↗</a></td></tr>`).join("");
+  $("publicationCards").innerHTML=rows.map(p=>`<div class="pub-card"><strong>${escapeHtml(p.title)}</strong><div class="note">${escapeHtml(p.year)} · ${escapeHtml(p.venue)}</div><div class="mono">${escapeHtml(p.identifierType)}: ${escapeHtml(p.identifier)}</div><a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">Open ↗</a></div>`).join("");
+}
+renderPublications();
+$("publicationSearch").addEventListener("input",e=>renderPublications(e.target.value));
+
+async function copyText(v){await navigator.clipboard.writeText(v);}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-copy-target],[data-copy-value]"); if(!b)return;
+  const value=b.dataset.copyValue ?? $(b.dataset.copyTarget)?.textContent ?? "";
+  copyText(value); const old=b.textContent;b.textContent="Copied";setTimeout(()=>b.textContent=old,900);
+});
+$("copySameAs").addEventListener("click",()=>copyText(JSON.stringify(personJsonLd.sameAs,null,2)));
+$("copyPerson").addEventListener("click",()=>copyText(JSON.stringify(personJsonLd,null,2)));
+</script>
+</body>
+</html>
